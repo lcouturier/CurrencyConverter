@@ -14,7 +14,6 @@ namespace CurrencyConverter.Core
     using System.Diagnostics.Contracts;
     using System.Diagnostics;
 	using System.CodeDom.Compiler;
-	using CurrencyConverter.Core;
 
 	[GeneratedCode("T4CodeGenerator", "1.0.0.0")] 
     public static class FunctionResultEitherTransformExtensions
@@ -25,7 +24,6 @@ namespace CurrencyConverter.Core
 		public static Func<Either<TResult>> OnExceptionEither<TResult>(this Func<TResult> func)
         {
             Contract.Requires<ArgumentNullException>(func != null);
-            Contract.Ensures(Contract.Result<Func<Either<TResult>>>() != null);
 
             return () =>
             {

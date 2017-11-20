@@ -60,7 +60,6 @@
     <Compile Include="Core\Specifications.cs" />
     <Compile Include="Core\ObjectExtensions.cs" />
     <Compile Include="Core\StringExtensions.cs" />
-    <Compile Include="Core\Fun.cs" />
     <Compile Include="Core\Either.cs" />
     <Compile Include="Core\PatternMatchingExtensions.cs" />
     <Compile Include="Core\ExceptionExtensions.cs" />
@@ -86,6 +85,10 @@
     </Compile>
     <Compile Include="Core\FunctionResultToOptionTransformExtensions.cs">
       <DependentUpon>FunctionResultToOptionTransformExtensions.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Core\UnitOfWork.cs" />
+    <Compile Include="Core\Fun.cs">
+      <DependentUpon>Fun.tt</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
@@ -120,6 +123,10 @@
     <None Include="Core\FunctionResultToOptionTransformExtensions.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>FunctionResultToOptionTransformExtensions.cs</LastGenOutput>
+    </None>
+    <None Include="Core\Fun.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Fun.cs</LastGenOutput>
     </None>
   </ItemGroup>
   <ItemGroup>
