@@ -146,4 +146,5 @@
       </Properties>
     </MonoDevelop>
   </ProjectExtensions>
+  <Import Project="..\packages\NETStandard.Library.2.0.1\build\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.1\build\NETStandard.Library.targets')" />
 </Project>
