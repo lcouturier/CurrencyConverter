@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -50,86 +50,15 @@
   <ItemGroup>
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Rates.cs" />
-    <Compile Include="Core\DisposableExtensions.cs" />
-    <Compile Include="Core\Either.cs" />
-    <Compile Include="Core\EnumerableExtensions.cs" />
-    <Compile Include="Core\ExceptionExtensions.cs" />
-    <Compile Include="Core\Fun.cs">
-      <DependentUpon>Fun.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Core\FunctionCurryFirstTransformExtensions.cs">
-      <DependentUpon>FunctionCurryFirstTransformExtensions.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Core\FunctionCurryingTransformExtensions.cs">
-      <DependentUpon>FunctionCurryingTransformExtensions.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Core\FunctionForwardTransformExtensions.cs">
-      <DependentUpon>FunctionForwardTransformExtensions.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Core\FunctionMeasureTransformExtensions.cs">
-      <DependentUpon>FunctionMeasureTransformExtensions.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Core\FunctionResultEitherTransformExtensions.cs">
-      <DependentUpon>FunctionResultEitherTransformExtensions.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Core\FunctionResultNoneOnExceptionTransformExtensions.cs">
-      <DependentUpon>FunctionResultNoneOnExceptionTransformExtensions.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Core\FunctionResultToOptionTransformExtensions.cs">
-      <DependentUpon>FunctionResultToOptionTransformExtensions.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Core\LambdaComparer.cs" />
-    <Compile Include="Core\ObjectExtensions.cs" />
-    <Compile Include="Core\Option.cs" />
-    <Compile Include="Core\Pair.cs" />
-    <Compile Include="Core\PatternMatchingExtensions.cs" />
-    <Compile Include="Core\Specifications.cs" />
-    <Compile Include="Core\StringExtensions.cs" />
-    <Compile Include="Core\UnitOfWork.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
     <None Include="packages.config" />
-    <None Include="Core\Fun.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Fun.cs</LastGenOutput>
-    </None>
-    <None Include="Core\FunctionCurryFirstTransformExtensions.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FunctionCurryFirstTransformExtensions.cs</LastGenOutput>
-    </None>
-    <None Include="Core\FunctionCurryingTransformExtensions.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FunctionCurryingTransformExtensions.cs</LastGenOutput>
-    </None>
-    <None Include="Core\FunctionForwardTransformExtensions.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FunctionForwardTransformExtensions.cs</LastGenOutput>
-    </None>
-    <None Include="Core\FunctionMeasureTransformExtensions.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FunctionMeasureTransformExtensions.cs</LastGenOutput>
-    </None>
-    <None Include="Core\FunctionResultEitherTransformExtensions.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FunctionResultEitherTransformExtensions.cs</LastGenOutput>
-    </None>
-    <None Include="Core\FunctionResultNoneOnExceptionTransformExtensions.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FunctionResultNoneOnExceptionTransformExtensions.cs</LastGenOutput>
-    </None>
-    <None Include="Core\FunctionResultToOptionTransformExtensions.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FunctionResultToOptionTransformExtensions.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\values\Strings.xml" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Core\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <ProjectExtensions>
     <MonoDevelop>
@@ -140,7 +69,7 @@
           <CSharpFormattingPolicy IndentBlock="True" IndentBraces="False" IndentSwitchCaseSection="True" LabelPositioning="OneLess" NewLinesForBracesInTypes="True" NewLinesForBracesInMethods="True" SpaceWithinMethodDeclarationParenthesis="False" SpaceBetweenEmptyMethodDeclarationParentheses="False" SpaceWithinMethodCallParentheses="False" SpaceBetweenEmptyMethodCallParentheses="False" SpaceAfterControlFlowStatementKeyword="True" SpaceWithinExpressionParentheses="False" SpaceWithinCastParentheses="False" SpaceWithinOtherParentheses="False" SpaceAfterCast="False" SpacesIgnoreAroundVariableDeclaration="False" SpaceBetweenEmptySquareBrackets="False" SpaceWithinSquareBrackets="False" SpaceAfterColonInBaseTypeDeclaration="True" SpaceAfterComma="True" SpaceAfterDot="False" SpaceAfterSemicolonsInForStatement="True" SpaceBeforeColonInBaseTypeDeclaration="True" SpaceBeforeComma="False" SpaceBeforeDot="False" SpaceBeforeSemicolonsInForStatement="False" SpacingAroundBinaryOperator="Single" WrappingPreserveSingleLine="True" WrappingKeepStatementsOnSingleLine="True" PlaceSystemDirectiveFirst="True" IndentSwitchSection="True" NewLinesForBracesInProperties="True" NewLinesForBracesInAccessors="True" NewLinesForBracesInAnonymousMethods="True" NewLinesForBracesInControlBlocks="True" NewLinesForBracesInAnonymousTypes="True" NewLinesForBracesInObjectCollectionArrayInitializers="True" NewLinesForBracesInLambdaExpressionBody="True" NewLineForElse="True" NewLineForCatch="True" NewLineForFinally="True" NewLineForMembersInObjectInit="True" NewLineForMembersInAnonymousTypes="True" NewLineForClausesInQuery="True" SpacingAfterMethodDeclarationName="False" SpaceAfterMethodCallName="False" SpaceBeforeOpenSquareBracket="False" inheritsSet="Mono" inheritsScope="text/x-csharp" scope="text/x-csharp" />
           <TextStylePolicy inheritsSet="null" scope="application/xml" />
           <XmlFormattingPolicy inheritsSet="Mono" inheritsScope="application/xml" scope="application/xml">
-            <DefaultFormat OmitXmlDeclaration="False" NewLineChars="&#xA;" IndentContent="True" ContentIndentString="&#x9;" AttributesInNewLine="False" MaxAttributesPerLine="10" AttributesIndentString="&#x9;" WrapAttributes="False" AlignAttributes="False" AlignAttributeValues="False" QuoteChar="&quot;" SpacesBeforeAssignment="0" SpacesAfterAssignment="0" EmptyLinesBeforeStart="0" EmptyLinesAfterStart="0" EmptyLinesBeforeEnd="0" EmptyLinesAfterEnd="0" />
+            <DefaultFormat OmitXmlDeclaration="False" NewLineChars="&#xA;" IndentContent="True" ContentIndentString="	" AttributesInNewLine="False" MaxAttributesPerLine="10" AttributesIndentString="	" WrapAttributes="False" AlignAttributes="False" AlignAttributeValues="False" QuoteChar="&quot;" SpacesBeforeAssignment="0" SpacesAfterAssignment="0" EmptyLinesBeforeStart="0" EmptyLinesAfterStart="0" EmptyLinesBeforeEnd="0" EmptyLinesAfterEnd="0" />
           </XmlFormattingPolicy>
         </Policies>
       </Properties>
