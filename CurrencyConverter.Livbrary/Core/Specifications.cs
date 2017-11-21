@@ -4,7 +4,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CurrencyConverter
+namespace CurrencyConverter.Library.Core
 {
 	/// <summary>
 	/// Implémentation du pattern spécification à la mode fonctionnelle

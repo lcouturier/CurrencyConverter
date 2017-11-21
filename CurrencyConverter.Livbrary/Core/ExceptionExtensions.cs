@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace CurrencyConverter
+namespace CurrencyConverter.Library.Core
 {
 	/// <summary>
 	/// Méthodes d'extensions de la classe <see cref="Exception"/>

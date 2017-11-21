@@ -11,7 +11,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Contracts;
 using System.CodeDom.Compiler;
 
-namespace CurrencyConverter.Core
+namespace CurrencyConverter.Library.Core
 {
 	[GeneratedCode("T4CodeGenerator", "1.0.0.0")] 
     public static class FunctionCurryingTransformExtensions

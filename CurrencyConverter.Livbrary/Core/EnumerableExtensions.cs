@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CurrencyConverter
+namespace CurrencyConverter.Library.Core
 {
 	using System.Diagnostics.Contracts;
 	using System.Diagnostics.CodeAnalysis;

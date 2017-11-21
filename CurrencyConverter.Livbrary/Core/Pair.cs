@@ -5,7 +5,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Diagnostics.Contracts;
 
 
-namespace CurrencyConverter
+namespace CurrencyConverter.Library.Core
 {
 	
 

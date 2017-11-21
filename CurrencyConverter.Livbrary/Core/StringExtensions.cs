@@ -1,5 +1,5 @@
 ﻿
-namespace CurrencyConverter.Core
+namespace CurrencyConverter.Library.Core
 {
 	using System;
 	using System.Collections.Generic;

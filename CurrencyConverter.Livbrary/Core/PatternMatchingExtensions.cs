@@ -1,5 +1,7 @@
 ﻿using System;
-namespace CurrencyConverter
+
+
+namespace CurrencyConverter.Library.Core
 {
 	using System.Diagnostics.Contracts;
 	using System.Diagnostics.CodeAnalysis;

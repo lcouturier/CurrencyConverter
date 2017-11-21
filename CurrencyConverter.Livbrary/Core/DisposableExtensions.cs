@@ -2,7 +2,7 @@
 using System.Diagnostics.Contracts;
 using System.Diagnostics.CodeAnalysis;
 
-namespace CurrencyConverter
+namespace CurrencyConverter.Library.Core
 {
 	public static class DisposableExtensions
 	{

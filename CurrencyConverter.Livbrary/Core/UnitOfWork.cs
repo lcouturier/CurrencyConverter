@@ -1,8 +1,7 @@
 ﻿using System;
 
-namespace CurrencyConverter
+namespace CurrencyConverter.Library.Core
 {
-	using System.Diagnostics.Tracing;
 	using System.Diagnostics.CodeAnalysis;
 	using System.Diagnostics.Contracts;
 	using System.Diagnostics;
@@ -128,5 +127,6 @@ namespace CurrencyConverter
 					this.OnFinally();
 				}
 			}
-		}	 }
+		}
+	}
 }

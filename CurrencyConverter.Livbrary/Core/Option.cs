@@ -3,7 +3,7 @@ using System.Diagnostics.Contracts;
 using System.Diagnostics.CodeAnalysis;
 using System.Collections.Generic;
 
-namespace CurrencyConverter
+namespace CurrencyConverter.Library.Core
 {
 	/// <summary>
 	/// 

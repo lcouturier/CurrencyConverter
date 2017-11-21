@@ -6,7 +6,7 @@ using System.Linq;
 using System.Runtime.Serialization.Formatters.Binary;
 using System.IO;
 
-namespace CurrencyConverter
+namespace CurrencyConverter.Library.Core
 {
 	/// <summary>
 	/// 

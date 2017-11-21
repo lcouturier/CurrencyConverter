@@ -54,80 +54,12 @@
     <Compile Include="Resources\Resource.designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ConfigurationActivity.cs" />
-    <Compile Include="Core\Pair.cs" />
-    <Compile Include="Core\Option.cs" />
-    <Compile Include="Core\DisposableExtensions.cs" />
-    <Compile Include="Core\Specifications.cs" />
-    <Compile Include="Core\ObjectExtensions.cs" />
-    <Compile Include="Core\StringExtensions.cs" />
-    <Compile Include="Core\Either.cs" />
-    <Compile Include="Core\PatternMatchingExtensions.cs" />
-    <Compile Include="Core\ExceptionExtensions.cs" />
-    <Compile Include="Core\EnumerableExtensions.cs" />
-    <Compile Include="Core\LambdaComparer.cs" />
-    <Compile Include="Core\FunctionResultEitherTransformExtensions.cs">
-      <DependentUpon>FunctionResultEitherTransformExtensions.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Core\FunctionCurryFirstTransformExtensions.cs">
-      <DependentUpon>FunctionCurryFirstTransformExtensions.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Core\FunctionCurryingTransformExtensions.cs">
-      <DependentUpon>FunctionCurryingTransformExtensions.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Core\FunctionForwardTransformExtensions.cs">
-      <DependentUpon>FunctionForwardTransformExtensions.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Core\FunctionMeasureTransformExtensions.cs">
-      <DependentUpon>FunctionMeasureTransformExtensions.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Core\FunctionResultNoneOnExceptionTransformExtensions.cs">
-      <DependentUpon>FunctionResultNoneOnExceptionTransformExtensions.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Core\FunctionResultToOptionTransformExtensions.cs">
-      <DependentUpon>FunctionResultToOptionTransformExtensions.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Core\UnitOfWork.cs" />
-    <Compile Include="Core\Fun.cs">
-      <DependentUpon>Fun.tt</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\AboutResources.txt" />
     <None Include="Properties\AndroidManifest.xml" />
     <None Include="Assets\AboutAssets.txt" />
     <None Include="packages.config" />
-    <None Include="Core\FunctionResultEitherTransformExtensions.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FunctionResultEitherTransformExtensions.cs</LastGenOutput>
-    </None>
-    <None Include="Core\FunctionCurryFirstTransformExtensions.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FunctionCurryFirstTransformExtensions.cs</LastGenOutput>
-    </None>
-    <None Include="Core\FunctionCurryingTransformExtensions.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FunctionCurryingTransformExtensions.cs</LastGenOutput>
-    </None>
-    <None Include="Core\FunctionForwardTransformExtensions.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FunctionForwardTransformExtensions.cs</LastGenOutput>
-    </None>
-    <None Include="Core\FunctionMeasureTransformExtensions.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FunctionMeasureTransformExtensions.cs</LastGenOutput>
-    </None>
-    <None Include="Core\FunctionResultNoneOnExceptionTransformExtensions.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FunctionResultNoneOnExceptionTransformExtensions.cs</LastGenOutput>
-    </None>
-    <None Include="Core\FunctionResultToOptionTransformExtensions.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>FunctionResultToOptionTransformExtensions.cs</LastGenOutput>
-    </None>
-    <None Include="Core\Fun.tt">
-      <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Fun.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml" />
@@ -140,7 +72,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\drawable\" />
-    <Folder Include="Core\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
   <Import Project="..\packages\NETStandard.Library.2.0.1\build\NETStandard.Library.targets" Condition="Exists('..\packages\NETStandard.Library.2.0.1\build\NETStandard.Library.targets')" />
