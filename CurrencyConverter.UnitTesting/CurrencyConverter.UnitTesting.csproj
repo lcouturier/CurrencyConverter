@@ -37,7 +37,7 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LibraryNET\LibraryNET.csproj">
+    <ProjectReference Include="..\LibraryNET\CurrencyConverter.Library.csproj">
       <Project>{927BC5BC-586C-4C66-A7AA-6CA1AD5AEA45}</Project>
       <Name>CurrencyConverter.Library</Name>
     </ProjectReference>
