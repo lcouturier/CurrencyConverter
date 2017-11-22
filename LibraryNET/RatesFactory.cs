@@ -20,9 +20,10 @@ namespace LibraryNET
 			{
 				var response = await client.GetAsync("https://api.fixer.io/latest");
 				var result = response.Content.ReadAsStringAsync().Result;
-				Trace.WriteLine(result);
-
+				Trace.TraceInformation(response.StatusCode.ToString())
+				     
 				return result.DeserializeJson<Rates>();
 			}
-		}	 }
+		}
+	 }
 }
