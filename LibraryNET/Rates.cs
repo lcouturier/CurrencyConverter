@@ -1,5 +1,5 @@
 ﻿
-namespace LibraryNET
+namespace CurrencyConverter.Library
 {    
     using System.Collections.Generic;
     using Newtonsoft.Json;    

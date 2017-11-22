@@ -1,4 +1,4 @@
-﻿namespace LibraryNET.Core
+﻿namespace CurrencyConverter.Library.Core
 {
     using System.Diagnostics.Contracts;
 

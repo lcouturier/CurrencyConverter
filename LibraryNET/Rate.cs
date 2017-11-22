@@ -1,5 +1,5 @@
 ﻿
-namespace LibraryNET
+namespace CurrencyConverter.Library
 {
     public class Rate
 	{

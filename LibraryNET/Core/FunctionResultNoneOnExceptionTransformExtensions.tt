@@ -18,7 +18,7 @@ using System.Diagnostics.Contracts;
 using System.Diagnostics;
 using System.CodeDom.Compiler;
 
-namespace LibraryNET.Core
+namespace CurrencyConverter.Library.Core
 {
     /// <summary>
     /// Méthodes d'extensions qui implémente un gestionnaire d'exception et qui retourne un <see cref="Option.None"/> en cas d'erreur

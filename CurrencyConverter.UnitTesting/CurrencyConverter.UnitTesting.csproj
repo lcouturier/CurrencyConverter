@@ -39,7 +39,7 @@
   <ItemGroup>
     <ProjectReference Include="..\LibraryNET\LibraryNET.csproj">
       <Project>{927BC5BC-586C-4C66-A7AA-6CA1AD5AEA45}</Project>
-      <Name>LibraryNET</Name>
+      <Name>CurrencyConverter.Library</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
